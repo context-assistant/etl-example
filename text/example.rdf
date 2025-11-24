@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    
+    <rdf:Description rdf:about="https://www.example.com/person/johndoe">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <foaf:name>John Doe</foaf:name>
+        <foaf:mbox rdf:resource="mailto:john.doe@example.com"/>
+        <foaf:homepage rdf:resource="https://www.example.com/johndoe"/>
+        <foaf:knows>
+            <rdf:Description rdf:about="https://www.example.com/person/janesmith">
+                <foaf:name>Jane Smith</foaf:name>
+                <foaf:mbox rdf:resource="mailto:jane.smith@example.com"/>
+            </rdf:Description>
+        </foaf:knows>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.example.com/article/web-development">
+        <dc:title>Introduction to Web Development</dc:title>
+        <dc:creator>John Doe</dc:creator>
+        <dc:date>2024-01-15</dc:date>
+        <dc:description>A comprehensive guide to modern web development practices and technologies.</dc:description>
+        <dc:subject>Web Development</dc:subject>
+        <dc:subject>Programming</dc:subject>
+    </rdf:Description>
+    
+</rdf:RDF>
+

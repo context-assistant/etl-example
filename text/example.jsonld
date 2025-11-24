@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "name": "https://schema.org/name",
+    "description": "https://schema.org/description",
+    "author": "https://schema.org/author"
+  },
+  "@type": "Article",
+  "name": "Introduction to JSON-LD",
+  "description": "JSON-LD (JavaScript Object Notation for Linked Data) is a method of encoding linked data using JSON. It is designed to be easy to use and understand, while providing a way to express structured data that can be easily processed by machines.",
+  "author": {
+    "@type": "Person",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  "datePublished": "2024-01-15",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Example Publishing",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/article/intro-jsonld"
+  }
+}
+

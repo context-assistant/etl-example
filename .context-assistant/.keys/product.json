@@ -1,0 +1,27 @@
+{
+  "valid-columns": [
+    "id",
+    "badges",
+    "brand",
+    "colour_name",
+    "common_description",
+    "description",
+    "image_link",
+    "inventory_policy",
+    "is_in_stock",
+    "link",
+    "price",
+    "product_type",
+    "sale_price",
+    "sku",
+    "tags",
+    "title",
+    "variant_id",
+    "vendor_name",
+    "vendor_style_name",
+    "zone1_price",
+    "zone2_price",
+    "zone3_price",
+    "zone4_price"
+  ]
+}

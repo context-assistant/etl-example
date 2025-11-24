@@ -1,0 +1,12 @@
+{
+  "name": "Gemma",
+  "model": "gemma3:27b",
+  "think": {
+    "enabled": false,
+    "level": "low"
+  },
+  "personality": [
+    "whimsical"
+  ],
+  "communication": []
+}

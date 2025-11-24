@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Example Technology Feed</title>
+    <subtitle>Latest updates from the technology world</subtitle>
+    <link href="https://www.example.com/feed" rel="self"/>
+    <link href="https://www.example.com"/>
+    <id>https://www.example.com/feed</id>
+    <updated>2024-01-15T12:00:00Z</updated>
+    <author>
+        <name>Example Blog</name>
+        <email>blog@example.com</email>
+    </author>
+    <entry>
+        <title>Introduction to WebAssembly</title>
+        <link href="https://www.example.com/articles/webassembly"/>
+        <id>https://www.example.com/articles/webassembly</id>
+        <updated>2024-01-15T10:00:00Z</updated>
+        <summary>WebAssembly (WASM) is a binary instruction format that enables high-performance applications on the web. Learn how to get started with WebAssembly and integrate it into your web projects.</summary>
+        <content type="html">
+            <![CDATA[
+            <p>WebAssembly is revolutionizing web development by allowing developers to run code at near-native speed in web browsers. This article explores the fundamentals of WebAssembly and provides practical examples.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>TypeScript Best Practices</title>
+        <link href="https://www.example.com/articles/typescript"/>
+        <id>https://www.example.com/articles/typescript</id>
+        <updated>2024-01-14T14:30:00Z</updated>
+        <summary>Discover best practices for writing maintainable and scalable TypeScript code, including type definitions, interfaces, and advanced patterns.</summary>
+    </entry>
+</feed>
+

@@ -1,0 +1,8 @@
+{
+  "valid-columns": [
+    "id",
+    "category_a",
+    "category_b",
+    "category_c"
+  ]
+}

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example Corporation//Example Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:example-event-001@example.com
+DTSTAMP:20240115T120000Z
+DTSTART:20240120T090000Z
+DTEND:20240120T110000Z
+SUMMARY:Team Meeting - Q1 Planning
+DESCRIPTION:Quarterly planning meeting to discuss Q1 objectives and team goals. Please prepare your project proposals and budget estimates.
+LOCATION:Conference Room A, 123 Main Street
+ORGANIZER;CN=John Doe:MAILTO:john.doe@example.com
+ATTENDEE;CN=Jane Smith;RSVP=TRUE:MAILTO:jane.smith@example.com
+ATTENDEE;CN=Bob Johnson;RSVP=TRUE:MAILTO:bob.johnson@example.com
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:example-event-002@example.com
+DTSTAMP:20240115T120000Z
+DTSTART:20240125T140000Z
+DTEND:20240125T160000Z
+SUMMARY:Web Development Workshop
+DESCRIPTION:Hands-on workshop covering modern web development practices including React, TypeScript, and deployment strategies.
+LOCATION:Training Center, Building B
+ORGANIZER;CN=Alice Williams:MAILTO:alice.williams@example.com
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
+

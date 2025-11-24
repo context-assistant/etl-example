@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jane Smith
+N:Smith;Jane;;;
+ORG:Tech Solutions Inc.
+TITLE:Product Manager
+TEL;TYPE=WORK,VOICE:+1-555-234-5678
+TEL;TYPE=CELL:+1-555-876-5432
+EMAIL;TYPE=WORK:jane.smith@techsolutions.com
+EMAIL;TYPE=HOME:jane@home.com
+ADR;TYPE=WORK:;;456 Business Blvd;Tech City;NY;10001;USA
+URL:https://www.techsolutions.com/janesmith
+NOTE:Passionate about building great products and leading cross-functional teams.
+END:VCARD
+

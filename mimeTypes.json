@@ -1,0 +1,593 @@
+[
+  {
+    "mimeType": "application/atom+xml",
+    "extensions": [
+      ".atom"
+    ],
+    "description": "Atom syndication feed format for web feeds",
+    "text": true
+  },
+  {
+    "mimeType": "application/geo+json",
+    "extensions": [
+      ".geojson"
+    ],
+    "description": "Geographic data in JSON format",
+    "text": true
+  },
+  {
+    "mimeType": "application/gzip",
+    "extensions": [
+      ".gz",
+      ".tgz"
+    ],
+    "description": "GNU zip compressed archive",
+    "text": false
+  },
+  {
+    "mimeType": "application/javascript",
+    "extensions": [
+      ".js",
+      ".mjs"
+    ],
+    "description": "JavaScript code for web browsers",
+    "text": true
+  },
+  {
+    "mimeType": "application/json",
+    "extensions": [
+      ".json"
+    ],
+    "description": "JSON data interchange format",
+    "text": true
+  },
+  {
+    "mimeType": "application/ld+json",
+    "extensions": [
+      ".jsonld"
+    ],
+    "description": "JSON-LD linked data format",
+    "text": true
+  },
+  {
+    "mimeType": "application/manifest+json",
+    "extensions": [
+      ".webmanifest"
+    ],
+    "description": "Web app manifest for PWA configuration",
+    "text": true
+  },
+  {
+    "mimeType": "application/octet-stream",
+    "extensions": [
+      ".bin",
+      ".dmg",
+      ".iso",
+      ".img"
+    ],
+    "description": "Generic binary data stream",
+    "text": false
+  },
+  {
+    "mimeType": "application/pdf",
+    "extensions": [
+      ".pdf"
+    ],
+    "description": "Portable Document Format",
+    "text": false
+  },
+  {
+    "mimeType": "application/problem+json",
+    "extensions": [],
+    "description": "HTTP problem details in JSON format",
+    "text": true
+  },
+  {
+    "mimeType": "application/rdf+xml",
+    "extensions": [
+      ".rdf"
+    ],
+    "description": "Resource Description Framework in XML",
+    "text": true
+  },
+  {
+    "mimeType": "application/rss+xml",
+    "extensions": [
+      ".rss",
+      ".xml"
+    ],
+    "description": "RSS feed format for web syndication",
+    "text": true
+  },
+  {
+    "mimeType": "application/vnd.api+json",
+    "extensions": [],
+    "description": "JSON API specification format",
+    "text": true
+  },
+  {
+    "mimeType": "application/wasm",
+    "extensions": [
+      ".wasm"
+    ],
+    "description": "WebAssembly binary format",
+    "text": false
+  },
+  {
+    "mimeType": "application/x-www-form-urlencoded",
+    "extensions": [],
+    "description": "URL-encoded form data",
+    "text": true
+  },
+  {
+    "mimeType": "application/xhtml+xml",
+    "extensions": [
+      ".xhtml",
+      ".xht"
+    ],
+    "description": "Extensible HyperText Markup Language",
+    "text": true
+  },
+  {
+    "mimeType": "application/xml",
+    "extensions": [
+      ".xml"
+    ],
+    "description": "Extensible Markup Language",
+    "text": true
+  },
+  {
+    "mimeType": "application/zip",
+    "extensions": [
+      ".zip"
+    ],
+    "description": "ZIP compressed archive",
+    "text": false
+  },
+  {
+    "mimeType": "audio/aac",
+    "extensions": [
+      ".aac",
+      ".adts"
+    ],
+    "description": "Advanced Audio Coding compressed audio",
+    "text": false
+  },
+  {
+    "mimeType": "audio/flac",
+    "extensions": [
+      ".flac"
+    ],
+    "description": "Free Lossless Audio Codec",
+    "text": false
+  },
+  {
+    "mimeType": "audio/midi",
+    "extensions": [
+      ".mid",
+      ".midi",
+      ".kar",
+      ".rmi"
+    ],
+    "description": "Musical Instrument Digital Interface",
+    "text": false
+  },
+  {
+    "mimeType": "audio/mpeg",
+    "extensions": [
+      ".mp3",
+      ".mpga",
+      ".mp2",
+      ".mp2a",
+      ".m2a",
+      ".m3a"
+    ],
+    "description": "MPEG audio layer 3 (MP3)",
+    "text": false
+  },
+  {
+    "mimeType": "audio/ogg",
+    "extensions": [
+      ".oga",
+      ".ogg",
+      ".spx"
+    ],
+    "description": "Ogg Vorbis audio format",
+    "text": false
+  },
+  {
+    "mimeType": "audio/wav",
+    "extensions": [
+      ".wav"
+    ],
+    "description": "Waveform Audio File Format",
+    "text": false
+  },
+  {
+    "mimeType": "audio/webm",
+    "extensions": [
+      ".weba"
+    ],
+    "description": "WebM audio container",
+    "text": false
+  },
+  {
+    "mimeType": "audio/x-m4a",
+    "extensions": [
+      ".m4a"
+    ],
+    "description": "MPEG-4 audio container",
+    "text": false
+  },
+  {
+    "mimeType": "audio/x-ms-wma",
+    "extensions": [
+      ".wma"
+    ],
+    "description": "Windows Media Audio",
+    "text": false
+  },
+  {
+    "mimeType": "font/collection",
+    "extensions": [
+      ".ttc"
+    ],
+    "description": "TrueType font collection",
+    "text": false
+  },
+  {
+    "mimeType": "font/otf",
+    "extensions": [
+      ".otf"
+    ],
+    "description": "OpenType font format",
+    "text": false
+  },
+  {
+    "mimeType": "font/sfnt",
+    "extensions": [
+      ".ttf",
+      ".otf"
+    ],
+    "description": "SFNT font wrapper format",
+    "text": false
+  },
+  {
+    "mimeType": "font/ttf",
+    "extensions": [
+      ".ttf"
+    ],
+    "description": "TrueType font format",
+    "text": false
+  },
+  {
+    "mimeType": "font/woff",
+    "extensions": [
+      ".woff"
+    ],
+    "description": "Web Open Font Format",
+    "text": false
+  },
+  {
+    "mimeType": "font/woff2",
+    "extensions": [
+      ".woff2"
+    ],
+    "description": "Web Open Font Format 2.0",
+    "text": false
+  },
+  {
+    "mimeType": "image/apng",
+    "extensions": [
+      ".apng"
+    ],
+    "description": "Animated Portable Network Graphics",
+    "text": false
+  },
+  {
+    "mimeType": "image/avif",
+    "extensions": [
+      ".avif"
+    ],
+    "description": "AV1 Image File Format",
+    "text": false
+  },
+  {
+    "mimeType": "image/bmp",
+    "extensions": [
+      ".bmp"
+    ],
+    "description": "Windows bitmap image",
+    "text": false
+  },
+  {
+    "mimeType": "image/gif",
+    "extensions": [
+      ".gif"
+    ],
+    "description": "Graphics Interchange Format",
+    "text": false
+  },
+  {
+    "mimeType": "image/jpeg",
+    "extensions": [
+      ".jpg",
+      ".jpeg"
+    ],
+    "description": "JPEG image format",
+    "text": false
+  },
+  {
+    "mimeType": "image/png",
+    "extensions": [
+      ".png"
+    ],
+    "description": "Portable Network Graphics",
+    "text": false
+  },
+  {
+    "mimeType": "image/svg+xml",
+    "extensions": [
+      ".svg",
+      ".svgz"
+    ],
+    "description": "Scalable Vector Graphics",
+    "text": true
+  },
+  {
+    "mimeType": "image/tiff",
+    "extensions": [
+      ".tif",
+      ".tiff"
+    ],
+    "description": "Tagged Image File Format",
+    "text": false
+  },
+  {
+    "mimeType": "image/webp",
+    "extensions": [
+      ".webp"
+    ],
+    "description": "WebP image format",
+    "text": false
+  },
+  {
+    "mimeType": "image/x-icon",
+    "extensions": [
+      ".ico",
+      ".cur"
+    ],
+    "description": "Windows icon file",
+    "text": false
+  },
+  {
+    "mimeType": "image/x-ms-bmp",
+    "extensions": [
+      ".bmp"
+    ],
+    "description": "Microsoft bitmap image",
+    "text": false
+  },
+  {
+    "mimeType": "model/gltf+json",
+    "extensions": [
+      ".gltf"
+    ],
+    "description": "GL Transmission Format (JSON)",
+    "text": true
+  },
+  {
+    "mimeType": "model/gltf-binary",
+    "extensions": [
+      ".glb"
+    ],
+    "description": "GL Transmission Format (binary)",
+    "text": false
+  },
+  {
+    "mimeType": "model/obj",
+    "extensions": [
+      ".obj"
+    ],
+    "description": "Wavefront OBJ 3D model",
+    "text": false
+  },
+  {
+    "mimeType": "model/stl",
+    "extensions": [
+      ".stl"
+    ],
+    "description": "Stereolithography 3D model",
+    "text": false
+  },
+  {
+    "mimeType": "text/calendar",
+    "extensions": [
+      ".ics",
+      ".ifb"
+    ],
+    "description": "iCalendar format for calendar data",
+    "text": true
+  },
+  {
+    "mimeType": "text/css",
+    "extensions": [
+      ".css"
+    ],
+    "description": "Cascading Style Sheets",
+    "text": true
+  },
+  {
+    "mimeType": "text/csv",
+    "extensions": [
+      ".csv"
+    ],
+    "description": "Comma-separated values",
+    "text": true
+  },
+  {
+    "mimeType": "text/html",
+    "extensions": [
+      ".html",
+      ".htm"
+    ],
+    "description": "HyperText Markup Language",
+    "text": true
+  },
+  {
+    "mimeType": "text/javascript",
+    "extensions": [
+      ".js",
+      ".mjs"
+    ],
+    "description": "JavaScript source code",
+    "text": true
+  },
+  {
+    "mimeType": "text/markdown",
+    "extensions": [
+      ".md",
+      ".markdown"
+    ],
+    "description": "Markdown formatted text",
+    "text": true
+  },
+  {
+    "mimeType": "text/plain",
+    "extensions": [
+      ".txt",
+      ".text"
+    ],
+    "description": "Plain text document",
+    "text": true
+  },
+  {
+    "mimeType": "text/srt",
+    "extensions": [
+      ".srt"
+    ],
+    "description": "SubRip subtitle format",
+    "text": true
+  },
+  {
+    "mimeType": "text/vcard",
+    "extensions": [
+      ".vcf",
+      ".vcard"
+    ],
+    "description": "vCard contact information",
+    "text": true
+  },
+  {
+    "mimeType": "text/vtt",
+    "extensions": [
+      ".vtt"
+    ],
+    "description": "WebVTT subtitle format",
+    "text": true
+  },
+  {
+    "mimeType": "text/xml",
+    "extensions": [
+      ".xml"
+    ],
+    "description": "Extensible Markup Language",
+    "text": true
+  },
+  {
+    "mimeType": "video/3gpp",
+    "extensions": [
+      ".3gp"
+    ],
+    "description": "3GPP video container",
+    "text": false
+  },
+  {
+    "mimeType": "video/3gpp2",
+    "extensions": [
+      ".3g2"
+    ],
+    "description": "3GPP2 video container",
+    "text": false
+  },
+  {
+    "mimeType": "video/h264",
+    "extensions": [
+      ".h264"
+    ],
+    "description": "H.264 video codec",
+    "text": false
+  },
+  {
+    "mimeType": "video/mp4",
+    "extensions": [
+      ".mp4",
+      ".mp4v",
+      ".mpg4"
+    ],
+    "description": "MPEG-4 video container",
+    "text": false
+  },
+  {
+    "mimeType": "video/mpeg",
+    "extensions": [
+      ".mpeg",
+      ".mpg",
+      ".mpe",
+      ".m1v",
+      ".m2v",
+      ".mpa"
+    ],
+    "description": "MPEG video format",
+    "text": false
+  },
+  {
+    "mimeType": "video/ogg",
+    "extensions": [
+      ".ogv"
+    ],
+    "description": "Ogg Theora video format",
+    "text": false
+  },
+  {
+    "mimeType": "video/quicktime",
+    "extensions": [
+      ".mov",
+      ".qt"
+    ],
+    "description": "QuickTime video format",
+    "text": false
+  },
+  {
+    "mimeType": "video/webm",
+    "extensions": [
+      ".webm"
+    ],
+    "description": "WebM video container",
+    "text": false
+  },
+  {
+    "mimeType": "video/x-flv",
+    "extensions": [
+      ".flv"
+    ],
+    "description": "Flash Video format",
+    "text": false
+  },
+  {
+    "mimeType": "video/x-matroska",
+    "extensions": [
+      ".mkv"
+    ],
+    "description": "Matroska video container",
+    "text": false
+  },
+  {
+    "mimeType": "video/x-msvideo",
+    "extensions": [
+      ".avi"
+    ],
+    "description": "Audio Video Interleave format",
+    "text": false
+  }
+]

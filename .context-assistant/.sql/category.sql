@@ -1,0 +1,1 @@
+SELECT * FROM category LIMIT 100;

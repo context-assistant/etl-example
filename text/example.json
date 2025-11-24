@@ -1,0 +1,41 @@
+{
+  "name": "example-application",
+  "version": "1.0.0",
+  "description": "An example JSON configuration file demonstrating common JSON structure and formatting",
+  "author": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "url": "https://www.example.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "webpack": "^5.88.0"
+  },
+  "keywords": [
+    "example",
+    "json",
+    "configuration",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/example-app.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+

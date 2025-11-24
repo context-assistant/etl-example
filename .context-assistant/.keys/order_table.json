@@ -1,0 +1,26 @@
+{
+  "valid-columns": [
+    "order_id",
+    "customer_id",
+    "order_date",
+    "delivey_date",
+    "hashed_address",
+    "hashed_phone",
+    "city",
+    "postal_code",
+    "state",
+    "country",
+    "total_order_value",
+    "total_payment_amount",
+    "total_sales_amount",
+    "hashed_email",
+    "product_id",
+    "category_id",
+    "booked_store_id",
+    "store_id",
+    "product_discount_amount",
+    "total_cost",
+    "quantity_ordered",
+    "product_type_id"
+  ]
+}

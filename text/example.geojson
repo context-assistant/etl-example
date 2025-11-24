@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      },
+      "properties": {
+        "name": "San Francisco",
+        "population": 873965,
+        "state": "California",
+        "description": "A major city in Northern California known for its tech industry and cultural diversity."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7128]
+      },
+      "properties": {
+        "name": "New York City",
+        "population": 8336817,
+        "state": "New York",
+        "description": "The most populous city in the United States, a global center for finance and culture."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-122.5, 37.7],
+          [-122.4, 37.7],
+          [-122.4, 37.8],
+          [-122.5, 37.8],
+          [-122.5, 37.7]
+        ]]
+      },
+      "properties": {
+        "name": "Example Region",
+        "type": "Administrative",
+        "area": "Example area for demonstration purposes"
+      }
+    }
+  ]
+}
+
